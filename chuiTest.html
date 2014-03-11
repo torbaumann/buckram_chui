@@ -169,8 +169,29 @@ function drawVisualization() {
 		New enquiry or job.</h2>
 	<!-- Here starts the google form -->	
 	<div>
-		<iframe frameborder="0" height="100%" marginheight="0" marginwidth="0" src="https://docs.google.com/a/b551.com/forms/d/1r2O8ytP_-hFOMZ5MHaoRMkBjEBQ_MIQcr4q32qvF4QY/viewform?embedded=true#start=embed" width="100%">Loading...
-		</iframe>
+	<ul class='list'>
+		<li>
+		<form>
+			<fieldset>
+				 <legend>Job Basics</legend>
+					Job Name <input type="text" name="Job Name"><br>
+					Job Type:   <select name="Job Type">
+									<option value="Wedding" selected>Wedding</option>
+									<option value="Engagement">Engagement</option>
+									<option value="Portrait">Portrait</option>
+									<option value="Headshots">Headshots</option>
+								</select>
+			 </fieldset>
+			 <fieldset>
+				 <legend>Client Details</legend>
+				 	First Name: <input type="text" name="firstname"><br>
+				 	Last Name: <input type="text" name="lastname"><br>
+				 	email: <input type="email" name="emailAddress"><br>
+				 	Phone: <input type="number" name="phonenumber"><br>
+			 </fieldset>	 
+		</form>
+		</li>
+	</ul>	
 	</div>
 	  <p>Nothing to see here...</p>
 	</section>
